@@ -4,7 +4,7 @@ var marge = 20;
 function setup() {
   canvas = createCanvas(1000,300);
   canvas.parent('processing');
-  textFont("Verdana");
+  textFont("courier");
   textSize(letterGrootte);
   textLeading(1.2*letterGrootte);
   //noLoop();
